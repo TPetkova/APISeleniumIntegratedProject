@@ -27,7 +27,7 @@ public class LoginPage extends BasePage{
     }
 
     public void login() {
-        setloginPassword(Configuration.getProperty("username"));
+        setloginUsername(Configuration.getProperty("username"));
         setloginPassword(Configuration.getProperty("password"));
         clickLoginButton();
     }

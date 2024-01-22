@@ -6,3 +6,19 @@ lastName = Petkova
 username = Teodora1
 # password
 password = Password123
+# address
+address = Sofia ul.123
+# city
+city = Sofia
+# state
+state = Sofia
+# zip code
+zipCode = 1000
+# phone number
+phoneNumber = 0888123456
+# ssn
+ssn = 1232456987
+# baseUrl
+baseUrl = http://localhost:8081/parabank/index.htm
+# login endpoint
+loginEndpoint = login.htm

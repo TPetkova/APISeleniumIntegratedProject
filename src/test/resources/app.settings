@@ -19,6 +19,6 @@ phoneNumber = 0888123456
 # ssn
 ssn = 1232456987
 # baseUrl
-baseUrl = https://parabank.parasoft.com/parabank/
+baseUrl = http://localhost:8081/parabank/index.htm
 # login endpoint
 loginEndpoint = login.htm

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+    <test name="SeleniumApiProject" >
+        <parameter name="accountType" value="0" />
+        <parameter name="accountType" value="1" />
+        <classes>
+            <class name="Selenium.HomePageTest" />
+        </classes>
+    </test>
+</suite>

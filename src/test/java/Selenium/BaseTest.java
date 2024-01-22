@@ -1,5 +1,6 @@
 package Selenium;
 
+import configuration.Configuration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -11,7 +12,7 @@ public class BaseTest {
     @BeforeTest
     public void setup() {
         driver = new ChromeDriver();
-        driver.get("https://parabank.parasoft.com/parabank/index.htm");
+        driver.get(Configuration.getProperty("baseUrl"));
     }
 
     @AfterTest

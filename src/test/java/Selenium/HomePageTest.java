@@ -89,4 +89,9 @@ public class HomePageTest extends BaseTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='ng-scope']/h1[@class='title']")));
         Assert.assertEquals(transferFundsPage.getSuccessMessage(), "Transfer Complete!");
     }
+
+    @Test
+    public void billPay() {
+        
+    }
 }

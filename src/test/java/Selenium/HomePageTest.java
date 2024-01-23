@@ -83,7 +83,7 @@ public class HomePageTest extends BaseTest {
         homePage.leftPanelElement(LeftPanelEnum.TRANSFER_FUNDS.toString()).click();
         Assert.assertTrue(driver.getCurrentUrl().equals("http://localhost:8081/parabank/transfer.htm"));
         transferFundsPage.setFundTransferAmount(3.33);
-        transferFundsPage.selectFromAccount("14121");
+        transferFundsPage.selectFromAccount("1412100");
         transferFundsPage.selectToAccount("14010");
         transferFundsPage.clickTransfer();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='ng-scope']/h1[@class='title']")));
@@ -92,6 +92,6 @@ public class HomePageTest extends BaseTest {
 
     @Test
     public void billPay() {
-        
+
     }
 }
